@@ -1,4 +1,6 @@
 import uvicorn
+
+# Add unused import at the top of app/main.py
 from fastapi import FastAPI
 
 app = FastAPI(title="Simple API", version="1.0.0")
